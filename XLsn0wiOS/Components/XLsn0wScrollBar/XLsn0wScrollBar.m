@@ -1,5 +1,6 @@
 
 #import "XLsn0wScrollBar.h"
+#import "ImportHeader.h"
 
 static NSString *const cellIdentifier = @"XLsn0wScrollUnderlineButtonCell";
 

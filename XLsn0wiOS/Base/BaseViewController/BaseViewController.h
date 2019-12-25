@@ -32,6 +32,8 @@
 */
 #import <UIKit/UIKit.h>
 #import "BaseNavigationController.h"
+#import <CoreLocation/CoreLocation.h>
+#import "ImportHeader.h"
 
 typedef void(^BaseViewControllerDelayAction)(void);
 typedef void(^BaseViewControllerRefreshAction)(NSInteger pageIndex);
@@ -55,7 +57,7 @@ typedef void(^BaseViewControllerLocationManagerAction)(NSString *country,
 
 - (void)pushTargetViewController:(NSString *)targetClass;
 
-- (AppDelegate *)AppDelegate;///获取当前AppDelegate
+- (id)AppDelegate;///获取当前AppDelegate
 - (id)popToViewController:(Class)viewControllerClass;
 - (void)backAction;
 - (id)previousViewControllerAtIndex:(NSUInteger)index;

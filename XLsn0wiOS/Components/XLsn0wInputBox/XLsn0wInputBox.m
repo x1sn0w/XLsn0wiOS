@@ -1,6 +1,7 @@
 
 #import "XLsn0wInputBox.h"
 #import "UITextView+Placeholder.h"
+#import "ImportHeader.h"
 
 #define XLsn0wInputBoxWidth 300
 #define XLsn0wInputBoxHeight 240

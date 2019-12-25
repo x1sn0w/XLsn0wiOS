@@ -79,8 +79,8 @@
 }
 
 ///获取当前AppDelegate
-- (AppDelegate *)AppDelegate {
-    AppDelegate* appDelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
+- (id)AppDelegate {
+    id appDelegate = [UIApplication sharedApplication].delegate;
     return appDelegate;
 }
 

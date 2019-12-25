@@ -1,7 +1,9 @@
 
 #import "BaseNavigationController.h"
-#import "ViewControllerTransitionProtocol.h"
-#import "ViewControllerTransition.h"
+//#import "ViewControllerTransitionProtocol.h"
+//#import "ViewControllerTransition.h"
+#import "ImportHeader.h"
+
 @interface BaseNavigationController () <UINavigationControllerDelegate,UIGestureRecognizerDelegate>
 
 @property (nonatomic, weak) id popDelegate;
@@ -124,62 +126,62 @@
     return self.topViewController;
 }
 
-#pragma mark - 转场动画区
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored  "-Wincompatible-pointer-types"
-//navigation切换是会走这个代理
--(id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC {
-    self.isSystemSlidBack = YES;
-    //如果来源VC和目标VC都实现协议，那么都做动画
-    if ([fromVC conformsToProtocol:@protocol(ViewControllerTransitionProtocol)] && [toVC conformsToProtocol:@protocol(ViewControllerTransitionProtocol)]) {
-        BOOL pinterestNedd = [self isNeedTransition:fromVC:toVC];
-        ViewControllerTransition *transion = [ViewControllerTransition new];
-        if (operation == UINavigationControllerOperationPush && pinterestNedd) {
-            transion.isPush = YES;
-            //暂时屏蔽带动画的右划返回
-            self.isSystemSlidBack = NO;
-            //            self.isSystemSlidBack = YES;
-        }else if(operation == UINavigationControllerOperationPop && pinterestNedd){
-            //暂时屏蔽带动画的右划返回
-            //            return nil;
-            transion.isPush = NO;
-            self.isSystemSlidBack = NO;
-        }else{
-            return nil;
-        }
-        return transion;
-    }else if([toVC conformsToProtocol:@protocol(ViewControllerTransitionProtocol)]){
-        //如果只有目标VC开启动画，那么isSystemSlidBack也要随之改变
-        BOOL pinterestNedd = [self isNeedTransition:toVC];
-        self.isSystemSlidBack = !pinterestNedd;
-        return nil;
-    }
-    return nil;
-}
-#pragma clang diagnostic pop
+//#pragma mark - 转场动画区
+//#pragma clang diagnostic push
+//#pragma clang diagnostic ignored  "-Wincompatible-pointer-types"
+////navigation切换是会走这个代理
+//-(id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC {
+//    self.isSystemSlidBack = YES;
+//    //如果来源VC和目标VC都实现协议，那么都做动画
+//    if ([fromVC conformsToProtocol:@protocol(ViewControllerTransitionProtocol)] && [toVC conformsToProtocol:@protocol(ViewControllerTransitionProtocol)]) {
+//        BOOL pinterestNedd = [self isNeedTransition:fromVC:toVC];
+//        ViewControllerTransition *transion = [ViewControllerTransition new];
+//        if (operation == UINavigationControllerOperationPush && pinterestNedd) {
+//            transion.isPush = YES;
+//            //暂时屏蔽带动画的右划返回
+//            self.isSystemSlidBack = NO;
+//            //            self.isSystemSlidBack = YES;
+//        }else if(operation == UINavigationControllerOperationPop && pinterestNedd){
+//            //暂时屏蔽带动画的右划返回
+//            //            return nil;
+//            transion.isPush = NO;
+//            self.isSystemSlidBack = NO;
+//        }else{
+//            return nil;
+//        }
+//        return transion;
+//    }else if([toVC conformsToProtocol:@protocol(ViewControllerTransitionProtocol)]){
+//        //如果只有目标VC开启动画，那么isSystemSlidBack也要随之改变
+//        BOOL pinterestNedd = [self isNeedTransition:toVC];
+//        self.isSystemSlidBack = !pinterestNedd;
+//        return nil;
+//    }
+//    return nil;
+//}
+//#pragma clang diagnostic pop
 
 //判断fromVC和toVC是否需要实现pinterest效果
--(BOOL)isNeedTransition:(UIViewController<ViewControllerTransitionProtocol> *)fromVC :(UIViewController<ViewControllerTransitionProtocol> *)toVC {
-    BOOL a = NO;
-    BOOL b = NO;
-    if ([fromVC respondsToSelector:@selector(isNeedTransition)] && [fromVC isNeedTransition]) {
-        a = YES;
-    }
-    if ([toVC respondsToSelector:@selector(isNeedTransition)] && [toVC isNeedTransition]) {
-        b = YES;
-    }
-    return (a && b) ;
-}
-
-//判断toVC是否需要实现pinterest效果
--(BOOL)isNeedTransition:(UIViewController<ViewControllerTransitionProtocol> *)toVC
-{
-    BOOL b = NO;
-    if ([toVC respondsToSelector:@selector(isNeedTransition)] && [toVC isNeedTransition]) {
-        b = YES;
-    }
-    return b;
-}
+//-(BOOL)isNeedTransition:(UIViewController<ViewControllerTransitionProtocol> *)fromVC :(UIViewController<ViewControllerTransitionProtocol> *)toVC {
+//    BOOL a = NO;
+//    BOOL b = NO;
+//    if ([fromVC respondsToSelector:@selector(isNeedTransition)] && [fromVC isNeedTransition]) {
+//        a = YES;
+//    }
+//    if ([toVC respondsToSelector:@selector(isNeedTransition)] && [toVC isNeedTransition]) {
+//        b = YES;
+//    }
+//    return (a && b) ;
+//}
+//
+////判断toVC是否需要实现pinterest效果
+//-(BOOL)isNeedTransition:(UIViewController<ViewControllerTransitionProtocol> *)toVC
+//{
+//    BOOL b = NO;
+//    if ([toVC respondsToSelector:@selector(isNeedTransition)] && [toVC isNeedTransition]) {
+//        b = YES;
+//    }
+//    return b;
+//}
 
 #pragma mark - NavitionContollerDelegate
 -(id<UIViewControllerInteractiveTransitioning>)navigationController:(UINavigationController *)navigationController interactionControllerForAnimationController:(id<UIViewControllerAnimatedTransitioning>)animationController {

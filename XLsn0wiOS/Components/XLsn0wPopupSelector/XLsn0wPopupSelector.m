@@ -1,6 +1,7 @@
 
 #import "XLsn0wPopupSelector.h"
 #import "XLsn0wPopupModel.h"
+#import "ImportHeader.h"
 
 #ifndef SCREEN_WIDTH
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width

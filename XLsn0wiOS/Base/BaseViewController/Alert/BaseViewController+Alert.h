@@ -7,6 +7,7 @@
 //
 
 #import "BaseViewController.h"
+#import "ImportHeader.h"
 
 typedef void(^BaseViewControllerXLsn0wAlertControllerAction)(XLsn0wAlertActioner * _Nullable action);
 typedef void(^BaseViewControllerInputAlertAction)(NSString * _Nullable text);//

@@ -7,6 +7,7 @@
 //
 
 #import "BaseTableViewCell.h"
+#import "ImportHeader.h"
 
 @implementation BaseTableViewCell
 

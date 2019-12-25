@@ -10,7 +10,7 @@
 #import "XLsn0wAlertActioner.h"
 #import "XLsn0wHighLightButton.h"
 #import "ConfigHeader.h"
-#import "XLsn0w.h""
+#import "ImportHeader.h""
 
 #define kThemeColor [UIColor colorWithRed:94/255.0 green:96/255.0 blue:102/255.0 alpha:1]
 

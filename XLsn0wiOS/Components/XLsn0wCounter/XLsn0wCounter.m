@@ -1,5 +1,6 @@
 
 #import "XLsn0wCounter.h"
+#import "ImportHeader.h"
 
 #define JWONEPIXELS  (1.0/[UIScreen mainScreen].scale)
 #define JWINTEGERTOSTRING(x) [NSString stringWithFormat:@"%ld",(long)x,nil]

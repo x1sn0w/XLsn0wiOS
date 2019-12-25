@@ -1,6 +1,7 @@
-
+#import "ImportHeader.h"
 #import "XLsn0wNetworking.h"
 #import "AFNetworking.h"
+#import "ImportHeader.h"
 
 static NSString * const kAFNetworkingLockName = @"com.alamofire.networking.operation.lock";
 #define errorDescription [error userInfo][@"NSLocalizedDescription"]
@@ -798,7 +799,7 @@ static NSString * const kAFNetworkingLockName = @"com.alamofire.networking.opera
 
 @implementation XLsn0wNetworkingManager
 
-+ (AFHTTPSessionManager *)shared {
++ (AFHTTPSessionManager *)shared:(NSString *)ServerDomain {
     static XLsn0wNetworkingManager *manager;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{

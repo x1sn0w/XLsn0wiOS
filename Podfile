@@ -11,5 +11,7 @@ target 'XLsn0wiOSKit' do
     pod 'Masonry'
     pod 'MJRefresh'
     pod 'YYKit'
+    pod 'ReactiveObjC'
+    pod 'KVOController'
     
 end

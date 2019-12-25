@@ -1,5 +1,6 @@
 
 #import "UIImageView+Extension.h"
+#import "ImportHeader.h"
 
 @implementation UIImageView (Extension)
 

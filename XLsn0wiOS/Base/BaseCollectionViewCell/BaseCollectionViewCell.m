@@ -7,6 +7,7 @@
 //
 
 #import "BaseCollectionViewCell.h"
+#import "ImportHeader.h"
 
 @implementation BaseCollectionViewCell
 

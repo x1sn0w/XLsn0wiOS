@@ -7,6 +7,7 @@
 //
 
 #import "BaseWebViewController.h"
+#import "ImportHeader.h"
 
 @interface BaseWebViewController ()
 

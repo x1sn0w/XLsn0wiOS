@@ -173,7 +173,7 @@ typedef enum : NSInteger {
 
 @interface XLsn0wNetworkingManager : AFHTTPSessionManager
 
-+ (XLsn0wNetworkingManager *_Nullable)shared;
++ (XLsn0wNetworkingManager *_Nullable)shared:(NSString *_Nullable)ServerDomain;
 
 // 上传图片
 + (void)uploadImage:(UIImage *_Nullable)image

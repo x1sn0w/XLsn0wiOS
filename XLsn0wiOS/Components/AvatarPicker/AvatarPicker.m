@@ -1,11 +1,4 @@
-//
-//  ImagePicker.m
-//  ReplaceThePicture
-//
-//  Created by apple on 16/1/25.
-//  Copyright © 2016年 DeveYang. All rights reserved.
-//
-
+#import "ImportHeader.h"
 #import "AvatarPicker.h"
 
 @interface AvatarPicker() <XLsn0wActionSheetDelegate, UIActionSheetDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>

@@ -7,6 +7,8 @@
 //
 
 #import "XLsn0wPullMenuCell.h"
+#import "ImportHeader.h"
+#import "ConfigHeader.h"
 
 @implementation XLsn0wPullMenuCell
 

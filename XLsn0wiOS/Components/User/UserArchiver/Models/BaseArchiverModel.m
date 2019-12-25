@@ -7,6 +7,7 @@
 //
 
 #import "BaseArchiverModel.h"
+#import "ImportHeader.h"
 
 @implementation BaseArchiverModel
 
