@@ -1,5 +1,6 @@
 
 #import "XLsn0wWebViewController.h"
+#import "ImportHeader.h"
 
 #define SCREENBOUNDS [UIScreen mainScreen].bounds
 #define NAV_HEIGHT 64

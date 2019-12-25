@@ -1,6 +1,7 @@
 
 #import "UITextView+Placeholder.h"
 #import <objc/runtime.h>
+#import "XLsn0w.h"
 
 @implementation UITextView (Placeholder)
 

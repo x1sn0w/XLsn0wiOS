@@ -745,9 +745,9 @@ otherButtonTitles:nil]; \
 #endif
 
 //获取appDelegate实例。
-UIKIT_STATIC_INLINE AppDelegate *appDelegate() {
-    return (AppDelegate *)[[UIApplication sharedApplication] delegate];
-}
+//UIKIT_STATIC_INLINE AppDelegate *appDelegate() {
+//    return (AppDelegate *)[[UIApplication sharedApplication] delegate];
+//}
 
 #define placeholderAppImage      [UIImage imageNamed:@"PlaceholderImg"]
 #define defaultAvatarImage       [UIImage imageNamed:@"defaultAvatar"]

@@ -1,5 +1,6 @@
 
 #import "UILabel+Extension.h"
+#import "ConfigHeader.h"
 
 @implementation UILabel (Extension)
 

@@ -2,6 +2,7 @@
 #import "XLsn0wPullMenu.h"
 #import "XLsn0wPullMenuCell.h"
 #import "XLsn0wPullMenuModel.h"
+#import "XLsn0w.h"
 
 #define VIEW_CENTER(aView)       ((aView).center)
 #define VIEW_CENTER_X(aView)     ((aView).center.x)
