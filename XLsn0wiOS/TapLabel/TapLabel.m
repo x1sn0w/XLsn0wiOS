@@ -7,7 +7,7 @@
 //
 
 #import "TapLabel.h"
-#import <ReactiveObjC.h>
+#import "ReactiveObjC.h"
 
 @implementation TapLabel
 
