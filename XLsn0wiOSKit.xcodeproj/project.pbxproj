@@ -18,6 +18,8 @@
 		040F4A5123B31F8B00ADC896 /* XLsn0wiOSKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F4A5023B31F8B00ADC896 /* XLsn0wiOSKitUITests.m */; };
 		04BA0C9523B4578300AFDC5B /* XLsn0wError.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0C9323B4578300AFDC5B /* XLsn0wError.m */; };
 		04BA0C9723B458AC00AFDC5B /* XLsn0wiOS.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 04BA0C9623B458AC00AFDC5B /* XLsn0wiOS.podspec */; };
+		04BA0C9B23B4918B00AFDC5B /* TapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0C9A23B4918B00AFDC5B /* TapLabel.m */; };
+		04BA0C9F23B4919400AFDC5B /* TapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0C9E23B4919400AFDC5B /* TapView.m */; };
 		70BDDD3E3931B752021A6AA2 /* libPods-XLsn0wiOSKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 074BB6B304C441A4A2816B8C /* libPods-XLsn0wiOSKit.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,10 @@
 		04BA0C9323B4578300AFDC5B /* XLsn0wError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wError.m; sourceTree = "<group>"; };
 		04BA0C9423B4578300AFDC5B /* XLsn0wError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wError.h; sourceTree = "<group>"; };
 		04BA0C9623B458AC00AFDC5B /* XLsn0wiOS.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wiOS.podspec; sourceTree = "<group>"; };
+		04BA0C9923B4918B00AFDC5B /* TapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapLabel.h; sourceTree = "<group>"; };
+		04BA0C9A23B4918B00AFDC5B /* TapLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapLabel.m; sourceTree = "<group>"; };
+		04BA0C9D23B4919400AFDC5B /* TapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapView.h; sourceTree = "<group>"; };
+		04BA0C9E23B4919400AFDC5B /* TapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapView.m; sourceTree = "<group>"; };
 		074BB6B304C441A4A2816B8C /* libPods-XLsn0wiOSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLsn0wiOSKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EF3BB5D673A947EC0EC192 /* Pods-XLsn0wiOSKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wiOSKit.debug.xcconfig"; path = "Target Support Files/Pods-XLsn0wiOSKit/Pods-XLsn0wiOSKit.debug.xcconfig"; sourceTree = "<group>"; };
 		D3842F39D840978C49620104 /* Pods-XLsn0wiOSKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wiOSKit.release.xcconfig"; path = "Target Support Files/Pods-XLsn0wiOSKit/Pods-XLsn0wiOSKit.release.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				04BA0C9623B458AC00AFDC5B /* XLsn0wiOS.podspec */,
+				04BA0C9C23B4919400AFDC5B /* TapView */,
+				04BA0C9823B4918B00AFDC5B /* TapLabel */,
 				04BA0C9223B4578300AFDC5B /* XLsn0wError */,
 			);
 			path = XLsn0wiOS;
@@ -166,6 +174,24 @@
 				04BA0C9323B4578300AFDC5B /* XLsn0wError.m */,
 			);
 			path = XLsn0wError;
+			sourceTree = "<group>";
+		};
+		04BA0C9823B4918B00AFDC5B /* TapLabel */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0C9923B4918B00AFDC5B /* TapLabel.h */,
+				04BA0C9A23B4918B00AFDC5B /* TapLabel.m */,
+			);
+			path = TapLabel;
+			sourceTree = "<group>";
+		};
+		04BA0C9C23B4919400AFDC5B /* TapView */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0C9D23B4919400AFDC5B /* TapView.h */,
+				04BA0C9E23B4919400AFDC5B /* TapView.m */,
+			);
+			path = TapView;
 			sourceTree = "<group>";
 		};
 		C37448E86F6C1F8BCCBF560E /* Pods */ = {
@@ -360,8 +386,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BA0C9F23B4919400AFDC5B /* TapView.m in Sources */,
 				040F4A3123B31F8400ADC896 /* ViewController.m in Sources */,
 				040F4A2B23B31F8400ADC896 /* AppDelegate.m in Sources */,
+				04BA0C9B23B4918B00AFDC5B /* TapLabel.m in Sources */,
 				040F4A3C23B31F8B00ADC896 /* main.m in Sources */,
 				040F4A2E23B31F8400ADC896 /* SceneDelegate.m in Sources */,
 				04BA0C9523B4578300AFDC5B /* XLsn0wError.m in Sources */,

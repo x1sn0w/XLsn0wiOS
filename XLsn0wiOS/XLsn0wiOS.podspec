@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "Copyright © XLsn0w"
   s.author          = { "XLsn0w" => "xlsn0wios@outlook.com" }
 
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.frameworks      = "UIKit", "Foundation"
 
   s.requires_arc    = true
-  s.license         = 'MIT'
+  s.license         = "Copyright © XLsn0w"
   s.platform        = :ios, "9.0"
 
   s.dependency "MBProgressHUD"
