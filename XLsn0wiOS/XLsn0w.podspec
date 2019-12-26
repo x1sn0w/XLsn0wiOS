@@ -23,5 +23,8 @@ Pod::Spec.new do |s|
   s.dependency "AFNetworking"
   s.dependency "SDWebImage"
   s.dependency "Masonry"
+  s.dependency "ReactiveObjC"
+  s.dependency "YYKit"
+  s.dependency "XLsn0w"
 
 end
