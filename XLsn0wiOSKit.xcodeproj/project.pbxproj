@@ -21,6 +21,27 @@
 		04BA0C9B23B4918B00AFDC5B /* TapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0C9A23B4918B00AFDC5B /* TapLabel.m */; };
 		04BA0C9F23B4919400AFDC5B /* TapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0C9E23B4919400AFDC5B /* TapView.m */; };
 		04BA0CA323B49D2600AFDC5B /* TapAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CA123B49D2600AFDC5B /* TapAttributedLabel.m */; };
+		04BA0CB623B4A29E00AFDC5B /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CB223B4A29E00AFDC5B /* UITextView+Placeholder.m */; };
+		04BA0CB723B4A29E00AFDC5B /* UITextView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CB323B4A29E00AFDC5B /* UITextView+Extension.m */; };
+		04BA0CBF23B4A44D00AFDC5B /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CBD23B4A44D00AFDC5B /* UIImage+Extension.m */; };
+		04BA0CC323B4A46500AFDC5B /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CC123B4A46500AFDC5B /* UILabel+Extension.m */; };
+		04BA0CC723B4A4FD00AFDC5B /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CC623B4A4FD00AFDC5B /* NSDictionary+Extension.m */; };
+		04BA0CCB23B4A53900AFDC5B /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CCA23B4A53900AFDC5B /* NSObject+Extension.m */; };
+		04BA0CD423B4A59100AFDC5B /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CCD23B4A59100AFDC5B /* Router.m */; };
+		04BA0CD523B4A59100AFDC5B /* RouterError.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CD023B4A59100AFDC5B /* RouterError.m */; };
+		04BA0CD623B4A59100AFDC5B /* RouterErrorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CD123B4A59100AFDC5B /* RouterErrorViewController.m */; };
+		04BA0CDE23B4A61400AFDC5B /* TipShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CD923B4A61300AFDC5B /* TipShow.m */; };
+		04BA0CDF23B4A61400AFDC5B /* PopupTipHUD+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CDB23B4A61300AFDC5B /* PopupTipHUD+Extension.m */; };
+		04BA0CE023B4A61400AFDC5B /* TipHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CDD23B4A61300AFDC5B /* TipHUD.m */; };
+		04BA0CE423B4A93300AFDC5B /* XLsn0wCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CE323B4A93300AFDC5B /* XLsn0wCounter.m */; };
+		04BA0CE823B4AB2500AFDC5B /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CE723B4AB2500AFDC5B /* NSString+Extension.m */; };
+		04BA0CF023B4AC4A00AFDC5B /* XLsn0wLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CEA23B4AC4900AFDC5B /* XLsn0wLocationManager.m */; };
+		04BA0CF123B4AC4A00AFDC5B /* XLsn0wLocationManagerAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CEC23B4AC4900AFDC5B /* XLsn0wLocationManagerAlert.m */; };
+		04BA0CF223B4AC4A00AFDC5B /* XLsn0wCoordinateConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CEF23B4AC4900AFDC5B /* XLsn0wCoordinateConvert.m */; };
+		04BA0CF623B4AC5900AFDC5B /* XLsn0wScrollBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0CF523B4AC5900AFDC5B /* XLsn0wScrollBar.m */; };
+		04BA0D0823B4ACB600AFDC5B /* XLsn0wPopupSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0D0423B4ACB600AFDC5B /* XLsn0wPopupSelector.m */; };
+		04BA0D0923B4ACB600AFDC5B /* XLsn0wPopupor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0D0523B4ACB600AFDC5B /* XLsn0wPopupor.m */; };
+		04BA0D0A23B4ACB600AFDC5B /* XLsn0wPopupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0D0723B4ACB600AFDC5B /* XLsn0wPopupModel.m */; };
 		70BDDD3E3931B752021A6AA2 /* libPods-XLsn0wiOSKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 074BB6B304C441A4A2816B8C /* libPods-XLsn0wiOSKit.a */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +90,52 @@
 		04BA0C9E23B4919400AFDC5B /* TapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapView.m; sourceTree = "<group>"; };
 		04BA0CA123B49D2600AFDC5B /* TapAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapAttributedLabel.m; sourceTree = "<group>"; };
 		04BA0CA223B49D2600AFDC5B /* TapAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapAttributedLabel.h; sourceTree = "<group>"; };
+		04BA0CA923B4A24F00AFDC5B /* XLsn0wInputBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLsn0wInputBox.m; sourceTree = "<group>"; };
+		04BA0CAA23B4A24F00AFDC5B /* XLsn0wInputBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLsn0wInputBox.h; sourceTree = "<group>"; };
+		04BA0CB123B4A29E00AFDC5B /* UITextView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extension.h"; sourceTree = "<group>"; };
+		04BA0CB223B4A29E00AFDC5B /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		04BA0CB323B4A29E00AFDC5B /* UITextView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extension.m"; sourceTree = "<group>"; };
+		04BA0CB423B4A29E00AFDC5B /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		04BA0CBA23B4A2C800AFDC5B /* ConfigHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigHeader.h; sourceTree = "<group>"; };
+		04BA0CBB23B4A33600AFDC5B /* XLsn0wiOSHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLsn0wiOSHeader.h; sourceTree = "<group>"; };
+		04BA0CBD23B4A44D00AFDC5B /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		04BA0CBE23B4A44D00AFDC5B /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		04BA0CC123B4A46500AFDC5B /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		04BA0CC223B4A46500AFDC5B /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		04BA0CC523B4A4FD00AFDC5B /* NSDictionary+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		04BA0CC623B4A4FD00AFDC5B /* NSDictionary+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
+		04BA0CC923B4A53900AFDC5B /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		04BA0CCA23B4A53900AFDC5B /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		04BA0CCD23B4A59100AFDC5B /* Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Router.m; sourceTree = "<group>"; };
+		04BA0CCE23B4A59100AFDC5B /* Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
+		04BA0CD023B4A59100AFDC5B /* RouterError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterError.m; sourceTree = "<group>"; };
+		04BA0CD123B4A59100AFDC5B /* RouterErrorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterErrorViewController.m; sourceTree = "<group>"; };
+		04BA0CD223B4A59100AFDC5B /* RouterErrorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterErrorViewController.h; sourceTree = "<group>"; };
+		04BA0CD323B4A59100AFDC5B /* RouterError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterError.h; sourceTree = "<group>"; };
+		04BA0CD823B4A61300AFDC5B /* PopupTipHUD+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PopupTipHUD+Extension.h"; sourceTree = "<group>"; };
+		04BA0CD923B4A61300AFDC5B /* TipShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipShow.m; sourceTree = "<group>"; };
+		04BA0CDA23B4A61300AFDC5B /* TipHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipHUD.h; sourceTree = "<group>"; };
+		04BA0CDB23B4A61300AFDC5B /* PopupTipHUD+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PopupTipHUD+Extension.m"; sourceTree = "<group>"; };
+		04BA0CDC23B4A61300AFDC5B /* TipShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipShow.h; sourceTree = "<group>"; };
+		04BA0CDD23B4A61300AFDC5B /* TipHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipHUD.m; sourceTree = "<group>"; };
+		04BA0CE223B4A93300AFDC5B /* XLsn0wCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wCounter.h; sourceTree = "<group>"; };
+		04BA0CE323B4A93300AFDC5B /* XLsn0wCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wCounter.m; sourceTree = "<group>"; };
+		04BA0CE623B4AB2500AFDC5B /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		04BA0CE723B4AB2500AFDC5B /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		04BA0CEA23B4AC4900AFDC5B /* XLsn0wLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wLocationManager.m; sourceTree = "<group>"; };
+		04BA0CEB23B4AC4900AFDC5B /* XLsn0wCoordinateConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wCoordinateConvert.h; sourceTree = "<group>"; };
+		04BA0CEC23B4AC4900AFDC5B /* XLsn0wLocationManagerAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wLocationManagerAlert.m; sourceTree = "<group>"; };
+		04BA0CED23B4AC4900AFDC5B /* XLsn0wLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wLocationManager.h; sourceTree = "<group>"; };
+		04BA0CEE23B4AC4900AFDC5B /* XLsn0wLocationManagerAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wLocationManagerAlert.h; sourceTree = "<group>"; };
+		04BA0CEF23B4AC4900AFDC5B /* XLsn0wCoordinateConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wCoordinateConvert.m; sourceTree = "<group>"; };
+		04BA0CF423B4AC5900AFDC5B /* XLsn0wScrollBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wScrollBar.h; sourceTree = "<group>"; };
+		04BA0CF523B4AC5900AFDC5B /* XLsn0wScrollBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wScrollBar.m; sourceTree = "<group>"; };
+		04BA0D0223B4ACB600AFDC5B /* XLsn0wPopupor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPopupor.h; sourceTree = "<group>"; };
+		04BA0D0323B4ACB600AFDC5B /* XLsn0wPopupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPopupModel.h; sourceTree = "<group>"; };
+		04BA0D0423B4ACB600AFDC5B /* XLsn0wPopupSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPopupSelector.m; sourceTree = "<group>"; };
+		04BA0D0523B4ACB600AFDC5B /* XLsn0wPopupor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPopupor.m; sourceTree = "<group>"; };
+		04BA0D0623B4ACB600AFDC5B /* XLsn0wPopupSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPopupSelector.h; sourceTree = "<group>"; };
+		04BA0D0723B4ACB600AFDC5B /* XLsn0wPopupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPopupModel.m; sourceTree = "<group>"; };
 		074BB6B304C441A4A2816B8C /* libPods-XLsn0wiOSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLsn0wiOSKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EF3BB5D673A947EC0EC192 /* Pods-XLsn0wiOSKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wiOSKit.debug.xcconfig"; path = "Target Support Files/Pods-XLsn0wiOSKit/Pods-XLsn0wiOSKit.debug.xcconfig"; sourceTree = "<group>"; };
 		D3842F39D840978C49620104 /* Pods-XLsn0wiOSKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wiOSKit.release.xcconfig"; path = "Target Support Files/Pods-XLsn0wiOSKit/Pods-XLsn0wiOSKit.release.xcconfig"; sourceTree = "<group>"; };
@@ -163,6 +230,16 @@
 			isa = PBXGroup;
 			children = (
 				04BA0C9623B458AC00AFDC5B /* XLsn0wiOS.podspec */,
+				04BA0CBB23B4A33600AFDC5B /* XLsn0wiOSHeader.h */,
+				04BA0D0123B4ACB600AFDC5B /* XLsn0wPopupSelector */,
+				04BA0CF323B4AC5900AFDC5B /* XLsn0wScrollBar */,
+				04BA0CE923B4AC4900AFDC5B /* XLsn0wLocationManager */,
+				04BA0CE123B4A93300AFDC5B /* XLsn0wCounter */,
+				04BA0CD723B4A61300AFDC5B /* TipShow */,
+				04BA0CCC23B4A59100AFDC5B /* Router */,
+				04BA0CB923B4A2C800AFDC5B /* ConfigHeader */,
+				04BA0CAF23B4A29000AFDC5B /* Extension */,
+				04BA0CA823B4A24F00AFDC5B /* XLsn0wInputBox */,
 				04BA0CA023B49D2600AFDC5B /* TapAttributedLabel */,
 				04BA0C9C23B4919400AFDC5B /* TapView */,
 				04BA0C9823B4918B00AFDC5B /* TapLabel */,
@@ -205,6 +282,170 @@
 				04BA0CA123B49D2600AFDC5B /* TapAttributedLabel.m */,
 			);
 			path = TapAttributedLabel;
+			sourceTree = "<group>";
+		};
+		04BA0CA823B4A24F00AFDC5B /* XLsn0wInputBox */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0CAA23B4A24F00AFDC5B /* XLsn0wInputBox.h */,
+				04BA0CA923B4A24F00AFDC5B /* XLsn0wInputBox.m */,
+			);
+			path = XLsn0wInputBox;
+			sourceTree = "<group>";
+		};
+		04BA0CAF23B4A29000AFDC5B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0CE523B4AB2500AFDC5B /* NSString */,
+				04BA0CC823B4A53900AFDC5B /* NSObject */,
+				04BA0CC423B4A4FD00AFDC5B /* NSDictionary */,
+				04BA0CC023B4A46500AFDC5B /* UILabel */,
+				04BA0CBC23B4A44D00AFDC5B /* UIImage */,
+				04BA0CB023B4A29E00AFDC5B /* UITextView */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		04BA0CB023B4A29E00AFDC5B /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0CB123B4A29E00AFDC5B /* UITextView+Extension.h */,
+				04BA0CB323B4A29E00AFDC5B /* UITextView+Extension.m */,
+				04BA0CB423B4A29E00AFDC5B /* UITextView+Placeholder.h */,
+				04BA0CB223B4A29E00AFDC5B /* UITextView+Placeholder.m */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		04BA0CB923B4A2C800AFDC5B /* ConfigHeader */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0CBA23B4A2C800AFDC5B /* ConfigHeader.h */,
+			);
+			path = ConfigHeader;
+			sourceTree = "<group>";
+		};
+		04BA0CBC23B4A44D00AFDC5B /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0CBE23B4A44D00AFDC5B /* UIImage+Extension.h */,
+				04BA0CBD23B4A44D00AFDC5B /* UIImage+Extension.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		04BA0CC023B4A46500AFDC5B /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0CC223B4A46500AFDC5B /* UILabel+Extension.h */,
+				04BA0CC123B4A46500AFDC5B /* UILabel+Extension.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		04BA0CC423B4A4FD00AFDC5B /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0CC523B4A4FD00AFDC5B /* NSDictionary+Extension.h */,
+				04BA0CC623B4A4FD00AFDC5B /* NSDictionary+Extension.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		04BA0CC823B4A53900AFDC5B /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0CC923B4A53900AFDC5B /* NSObject+Extension.h */,
+				04BA0CCA23B4A53900AFDC5B /* NSObject+Extension.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		04BA0CCC23B4A59100AFDC5B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0CCD23B4A59100AFDC5B /* Router.m */,
+				04BA0CCE23B4A59100AFDC5B /* Router.h */,
+				04BA0CCF23B4A59100AFDC5B /* RouterError */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		04BA0CCF23B4A59100AFDC5B /* RouterError */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0CD023B4A59100AFDC5B /* RouterError.m */,
+				04BA0CD123B4A59100AFDC5B /* RouterErrorViewController.m */,
+				04BA0CD223B4A59100AFDC5B /* RouterErrorViewController.h */,
+				04BA0CD323B4A59100AFDC5B /* RouterError.h */,
+			);
+			path = RouterError;
+			sourceTree = "<group>";
+		};
+		04BA0CD723B4A61300AFDC5B /* TipShow */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0CD823B4A61300AFDC5B /* PopupTipHUD+Extension.h */,
+				04BA0CD923B4A61300AFDC5B /* TipShow.m */,
+				04BA0CDA23B4A61300AFDC5B /* TipHUD.h */,
+				04BA0CDB23B4A61300AFDC5B /* PopupTipHUD+Extension.m */,
+				04BA0CDC23B4A61300AFDC5B /* TipShow.h */,
+				04BA0CDD23B4A61300AFDC5B /* TipHUD.m */,
+			);
+			path = TipShow;
+			sourceTree = "<group>";
+		};
+		04BA0CE123B4A93300AFDC5B /* XLsn0wCounter */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0CE223B4A93300AFDC5B /* XLsn0wCounter.h */,
+				04BA0CE323B4A93300AFDC5B /* XLsn0wCounter.m */,
+			);
+			path = XLsn0wCounter;
+			sourceTree = "<group>";
+		};
+		04BA0CE523B4AB2500AFDC5B /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0CE623B4AB2500AFDC5B /* NSString+Extension.h */,
+				04BA0CE723B4AB2500AFDC5B /* NSString+Extension.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		04BA0CE923B4AC4900AFDC5B /* XLsn0wLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0CEA23B4AC4900AFDC5B /* XLsn0wLocationManager.m */,
+				04BA0CEB23B4AC4900AFDC5B /* XLsn0wCoordinateConvert.h */,
+				04BA0CEC23B4AC4900AFDC5B /* XLsn0wLocationManagerAlert.m */,
+				04BA0CED23B4AC4900AFDC5B /* XLsn0wLocationManager.h */,
+				04BA0CEE23B4AC4900AFDC5B /* XLsn0wLocationManagerAlert.h */,
+				04BA0CEF23B4AC4900AFDC5B /* XLsn0wCoordinateConvert.m */,
+			);
+			path = XLsn0wLocationManager;
+			sourceTree = "<group>";
+		};
+		04BA0CF323B4AC5900AFDC5B /* XLsn0wScrollBar */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0CF423B4AC5900AFDC5B /* XLsn0wScrollBar.h */,
+				04BA0CF523B4AC5900AFDC5B /* XLsn0wScrollBar.m */,
+			);
+			path = XLsn0wScrollBar;
+			sourceTree = "<group>";
+		};
+		04BA0D0123B4ACB600AFDC5B /* XLsn0wPopupSelector */ = {
+			isa = PBXGroup;
+			children = (
+				04BA0D0223B4ACB600AFDC5B /* XLsn0wPopupor.h */,
+				04BA0D0323B4ACB600AFDC5B /* XLsn0wPopupModel.h */,
+				04BA0D0423B4ACB600AFDC5B /* XLsn0wPopupSelector.m */,
+				04BA0D0523B4ACB600AFDC5B /* XLsn0wPopupor.m */,
+				04BA0D0623B4ACB600AFDC5B /* XLsn0wPopupSelector.h */,
+				04BA0D0723B4ACB600AFDC5B /* XLsn0wPopupModel.m */,
+			);
+			path = XLsn0wPopupSelector;
 			sourceTree = "<group>";
 		};
 		C37448E86F6C1F8BCCBF560E /* Pods */ = {
@@ -401,12 +642,33 @@
 			files = (
 				04BA0C9F23B4919400AFDC5B /* TapView.m in Sources */,
 				040F4A3123B31F8400ADC896 /* ViewController.m in Sources */,
+				04BA0CDF23B4A61400AFDC5B /* PopupTipHUD+Extension.m in Sources */,
+				04BA0CD623B4A59100AFDC5B /* RouterErrorViewController.m in Sources */,
+				04BA0CE423B4A93300AFDC5B /* XLsn0wCounter.m in Sources */,
+				04BA0CE823B4AB2500AFDC5B /* NSString+Extension.m in Sources */,
+				04BA0CC323B4A46500AFDC5B /* UILabel+Extension.m in Sources */,
 				040F4A2B23B31F8400ADC896 /* AppDelegate.m in Sources */,
+				04BA0D0A23B4ACB600AFDC5B /* XLsn0wPopupModel.m in Sources */,
+				04BA0CF223B4AC4A00AFDC5B /* XLsn0wCoordinateConvert.m in Sources */,
+				04BA0CC723B4A4FD00AFDC5B /* NSDictionary+Extension.m in Sources */,
+				04BA0CB623B4A29E00AFDC5B /* UITextView+Placeholder.m in Sources */,
 				04BA0C9B23B4918B00AFDC5B /* TapLabel.m in Sources */,
 				04BA0CA323B49D2600AFDC5B /* TapAttributedLabel.m in Sources */,
+				04BA0CB723B4A29E00AFDC5B /* UITextView+Extension.m in Sources */,
+				04BA0CBF23B4A44D00AFDC5B /* UIImage+Extension.m in Sources */,
 				040F4A3C23B31F8B00ADC896 /* main.m in Sources */,
+				04BA0D0823B4ACB600AFDC5B /* XLsn0wPopupSelector.m in Sources */,
+				04BA0CF123B4AC4A00AFDC5B /* XLsn0wLocationManagerAlert.m in Sources */,
+				04BA0CF023B4AC4A00AFDC5B /* XLsn0wLocationManager.m in Sources */,
+				04BA0CD523B4A59100AFDC5B /* RouterError.m in Sources */,
 				040F4A2E23B31F8400ADC896 /* SceneDelegate.m in Sources */,
 				04BA0C9523B4578300AFDC5B /* XLsn0wError.m in Sources */,
+				04BA0CD423B4A59100AFDC5B /* Router.m in Sources */,
+				04BA0D0923B4ACB600AFDC5B /* XLsn0wPopupor.m in Sources */,
+				04BA0CF623B4AC5900AFDC5B /* XLsn0wScrollBar.m in Sources */,
+				04BA0CDE23B4A61400AFDC5B /* TipShow.m in Sources */,
+				04BA0CCB23B4A53900AFDC5B /* NSObject+Extension.m in Sources */,
+				04BA0CE023B4A61400AFDC5B /* TipHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
