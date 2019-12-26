@@ -16,8 +16,8 @@
 		040F4A3C23B31F8B00ADC896 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F4A3B23B31F8B00ADC896 /* main.m */; };
 		040F4A4623B31F8B00ADC896 /* XLsn0wiOSKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F4A4523B31F8B00ADC896 /* XLsn0wiOSKitTests.m */; };
 		040F4A5123B31F8B00ADC896 /* XLsn0wiOSKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F4A5023B31F8B00ADC896 /* XLsn0wiOSKitUITests.m */; };
-		040F4CAF23B3205400ADC896 /* XLsn0w.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 040F4CAE23B3205400ADC896 /* XLsn0w.podspec */; };
 		04BA0C9523B4578300AFDC5B /* XLsn0wError.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0C9323B4578300AFDC5B /* XLsn0wError.m */; };
+		04BA0C9723B458AC00AFDC5B /* XLsn0wiOS.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 04BA0C9623B458AC00AFDC5B /* XLsn0wiOS.podspec */; };
 		70BDDD3E3931B752021A6AA2 /* libPods-XLsn0wiOSKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 074BB6B304C441A4A2816B8C /* libPods-XLsn0wiOSKit.a */; };
 /* End PBXBuildFile section */
 
@@ -57,9 +57,9 @@
 		040F4A4C23B31F8B00ADC896 /* XLsn0wiOSKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLsn0wiOSKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040F4A5023B31F8B00ADC896 /* XLsn0wiOSKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLsn0wiOSKitUITests.m; sourceTree = "<group>"; };
 		040F4A5223B31F8B00ADC896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		040F4CAE23B3205400ADC896 /* XLsn0w.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0w.podspec; sourceTree = "<group>"; };
 		04BA0C9323B4578300AFDC5B /* XLsn0wError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wError.m; sourceTree = "<group>"; };
 		04BA0C9423B4578300AFDC5B /* XLsn0wError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wError.h; sourceTree = "<group>"; };
+		04BA0C9623B458AC00AFDC5B /* XLsn0wiOS.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wiOS.podspec; sourceTree = "<group>"; };
 		074BB6B304C441A4A2816B8C /* libPods-XLsn0wiOSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLsn0wiOSKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EF3BB5D673A947EC0EC192 /* Pods-XLsn0wiOSKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wiOSKit.debug.xcconfig"; path = "Target Support Files/Pods-XLsn0wiOSKit/Pods-XLsn0wiOSKit.debug.xcconfig"; sourceTree = "<group>"; };
 		D3842F39D840978C49620104 /* Pods-XLsn0wiOSKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wiOSKit.release.xcconfig"; path = "Target Support Files/Pods-XLsn0wiOSKit/Pods-XLsn0wiOSKit.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 		040F4A5E23B31F9900ADC896 /* XLsn0wiOS */ = {
 			isa = PBXGroup;
 			children = (
-				040F4CAE23B3205400ADC896 /* XLsn0w.podspec */,
+				04BA0C9623B458AC00AFDC5B /* XLsn0wiOS.podspec */,
 				04BA0C9223B4578300AFDC5B /* XLsn0wError */,
 			);
 			path = XLsn0wiOS;
@@ -162,8 +162,8 @@
 		04BA0C9223B4578300AFDC5B /* XLsn0wError */ = {
 			isa = PBXGroup;
 			children = (
-				04BA0C9323B4578300AFDC5B /* XLsn0wError.m */,
 				04BA0C9423B4578300AFDC5B /* XLsn0wError.h */,
+				04BA0C9323B4578300AFDC5B /* XLsn0wError.m */,
 			);
 			path = XLsn0wError;
 			sourceTree = "<group>";
@@ -290,7 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040F4CAF23B3205400ADC896 /* XLsn0w.podspec in Resources */,
+				04BA0C9723B458AC00AFDC5B /* XLsn0wiOS.podspec in Resources */,
 				040F4A3923B31F8B00ADC896 /* LaunchScreen.storyboard in Resources */,
 				040F4A3623B31F8B00ADC896 /* Assets.xcassets in Resources */,
 				040F4A3423B31F8400ADC896 /* Main.storyboard in Resources */,

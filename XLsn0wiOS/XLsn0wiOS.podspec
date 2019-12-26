@@ -10,9 +10,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/XLsn0wiOS/XLsn0wiOS.git", :tag => s.version.to_s }
 
   s.source_files    = "XLsn0wiOS/**/*.{h,m}"
-
-  s.libraries       = "sqlite3", "z"
-
+  
   s.frameworks      = "UIKit", "Foundation"
 
   s.requires_arc    = true
