@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "Copyright © XLsn0w"
   s.author          = { "XLsn0w" => "xlsn0wios@outlook.com" }
 
@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   s.dependency "SDWebImage"
   s.dependency "Masonry"
   s.dependency "ReactiveObjC"
+  s.dependency "MJRefresh"
   s.dependency "YYKit"
   s.dependency "XLsn0w"
 
