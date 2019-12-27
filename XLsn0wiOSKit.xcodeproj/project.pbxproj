@@ -16,6 +16,25 @@
 		040F4A3C23B31F8B00ADC896 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F4A3B23B31F8B00ADC896 /* main.m */; };
 		040F4A4623B31F8B00ADC896 /* XLsn0wiOSKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F4A4523B31F8B00ADC896 /* XLsn0wiOSKitTests.m */; };
 		040F4A5123B31F8B00ADC896 /* XLsn0wiOSKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F4A5023B31F8B00ADC896 /* XLsn0wiOSKitUITests.m */; };
+		04820D9723B59C9100516B81 /* AppFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820D9623B59C9100516B81 /* AppFPSLabel.m */; };
+		04820D9B23B59D5800516B81 /* ArrowMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820D9A23B59D5800516B81 /* ArrowMenu.m */; };
+		04820D9F23B59DF800516B81 /* AvatarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820D9D23B59DF800516B81 /* AvatarPicker.m */; };
+		04820DA323B59E2000516B81 /* iOSDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DA223B59E2000516B81 /* iOSDeviceInfo.m */; };
+		04820DAA23B59E3400516B81 /* XLsn0wActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DA623B59E3400516B81 /* XLsn0wActionSheet.m */; };
+		04820DAC23B59E3500516B81 /* XLsn0wActionSheetConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DA823B59E3400516B81 /* XLsn0wActionSheetConfig.m */; };
+		04820DB023B59F0900516B81 /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DAF23B59F0900516B81 /* UIDevice+Extension.m */; };
+		04820DC423B59F7F00516B81 /* AlignTypeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DB223B59F7E00516B81 /* AlignTypeButton.m */; };
+		04820DC523B59F7F00516B81 /* SegmentedBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DB523B59F7E00516B81 /* SegmentedBar.m */; };
+		04820DC623B59F7F00516B81 /* SegmentedPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DB823B59F7E00516B81 /* SegmentedPage.m */; };
+		04820DC723B59F7F00516B81 /* AttributedColorString.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DBB23B59F7E00516B81 /* AttributedColorString.m */; };
+		04820DC823B59F7F00516B81 /* GuidePageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DBD23B59F7F00516B81 /* GuidePageManager.m */; };
+		04820DC923B59F7F00516B81 /* GuidePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DC023B59F7F00516B81 /* GuidePageViewController.m */; };
+		04820DCA23B59F7F00516B81 /* RegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DC323B59F7F00516B81 /* RegularExpression.m */; };
+		04820DD723B59FAD00516B81 /* XLsn0wHighLightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DCE23B59FAC00516B81 /* XLsn0wHighLightButton.m */; };
+		04820DD823B59FAD00516B81 /* XLsn0wAlertActioner.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DD023B59FAC00516B81 /* XLsn0wAlertActioner.m */; };
+		04820DD923B59FAD00516B81 /* XLsn0wBoldAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DD123B59FAC00516B81 /* XLsn0wBoldAlertController.m */; };
+		04820DDA23B59FAD00516B81 /* XLsn0wAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DD223B59FAC00516B81 /* XLsn0wAlertController.m */; };
+		04820DDB23B59FAD00516B81 /* NavSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DD623B59FAC00516B81 /* NavSearchBar.m */; };
 		04BA0C9523B4578300AFDC5B /* XLsn0wError.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0C9323B4578300AFDC5B /* XLsn0wError.m */; };
 		04BA0C9723B458AC00AFDC5B /* XLsn0wiOS.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 04BA0C9623B458AC00AFDC5B /* XLsn0wiOS.podspec */; };
 		04BA0C9B23B4918B00AFDC5B /* TapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0C9A23B4918B00AFDC5B /* TapLabel.m */; };
@@ -81,6 +100,44 @@
 		040F4A4C23B31F8B00ADC896 /* XLsn0wiOSKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLsn0wiOSKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040F4A5023B31F8B00ADC896 /* XLsn0wiOSKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLsn0wiOSKitUITests.m; sourceTree = "<group>"; };
 		040F4A5223B31F8B00ADC896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04820D9523B59C9100516B81 /* AppFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppFPSLabel.h; sourceTree = "<group>"; };
+		04820D9623B59C9100516B81 /* AppFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppFPSLabel.m; sourceTree = "<group>"; };
+		04820D9923B59D5800516B81 /* ArrowMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowMenu.h; sourceTree = "<group>"; };
+		04820D9A23B59D5800516B81 /* ArrowMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowMenu.m; sourceTree = "<group>"; };
+		04820D9D23B59DF800516B81 /* AvatarPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarPicker.m; sourceTree = "<group>"; };
+		04820D9E23B59DF800516B81 /* AvatarPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarPicker.h; sourceTree = "<group>"; };
+		04820DA123B59E2000516B81 /* iOSDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSDeviceInfo.h; sourceTree = "<group>"; };
+		04820DA223B59E2000516B81 /* iOSDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSDeviceInfo.m; sourceTree = "<group>"; };
+		04820DA523B59E3400516B81 /* XLsn0wActionSheetConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wActionSheetConfig.h; sourceTree = "<group>"; };
+		04820DA623B59E3400516B81 /* XLsn0wActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wActionSheet.m; sourceTree = "<group>"; };
+		04820DA823B59E3400516B81 /* XLsn0wActionSheetConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wActionSheetConfig.m; sourceTree = "<group>"; };
+		04820DA923B59E3400516B81 /* XLsn0wActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wActionSheet.h; sourceTree = "<group>"; };
+		04820DAE23B59F0900516B81 /* UIDevice+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extension.h"; sourceTree = "<group>"; };
+		04820DAF23B59F0900516B81 /* UIDevice+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extension.m"; sourceTree = "<group>"; };
+		04820DB223B59F7E00516B81 /* AlignTypeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlignTypeButton.m; sourceTree = "<group>"; };
+		04820DB323B59F7E00516B81 /* AlignTypeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlignTypeButton.h; sourceTree = "<group>"; };
+		04820DB523B59F7E00516B81 /* SegmentedBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedBar.m; sourceTree = "<group>"; };
+		04820DB623B59F7E00516B81 /* SegmentedPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedPage.h; sourceTree = "<group>"; };
+		04820DB723B59F7E00516B81 /* SegmentedBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedBar.h; sourceTree = "<group>"; };
+		04820DB823B59F7E00516B81 /* SegmentedPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedPage.m; sourceTree = "<group>"; };
+		04820DBA23B59F7E00516B81 /* AttributedColorString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributedColorString.h; sourceTree = "<group>"; };
+		04820DBB23B59F7E00516B81 /* AttributedColorString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedColorString.m; sourceTree = "<group>"; };
+		04820DBD23B59F7F00516B81 /* GuidePageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePageManager.m; sourceTree = "<group>"; };
+		04820DBE23B59F7F00516B81 /* GuidePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePageViewController.h; sourceTree = "<group>"; };
+		04820DBF23B59F7F00516B81 /* GuidePageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePageManager.h; sourceTree = "<group>"; };
+		04820DC023B59F7F00516B81 /* GuidePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePageViewController.m; sourceTree = "<group>"; };
+		04820DC223B59F7F00516B81 /* RegularExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularExpression.h; sourceTree = "<group>"; };
+		04820DC323B59F7F00516B81 /* RegularExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularExpression.m; sourceTree = "<group>"; };
+		04820DCC23B59FAC00516B81 /* XLsn0wBoldAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wBoldAlertController.h; sourceTree = "<group>"; };
+		04820DCD23B59FAC00516B81 /* XLsn0wAlertActioner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wAlertActioner.h; sourceTree = "<group>"; };
+		04820DCE23B59FAC00516B81 /* XLsn0wHighLightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wHighLightButton.m; sourceTree = "<group>"; };
+		04820DCF23B59FAC00516B81 /* XLsn0wAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wAlertController.h; sourceTree = "<group>"; };
+		04820DD023B59FAC00516B81 /* XLsn0wAlertActioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wAlertActioner.m; sourceTree = "<group>"; };
+		04820DD123B59FAC00516B81 /* XLsn0wBoldAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wBoldAlertController.m; sourceTree = "<group>"; };
+		04820DD223B59FAC00516B81 /* XLsn0wAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wAlertController.m; sourceTree = "<group>"; };
+		04820DD323B59FAC00516B81 /* XLsn0wHighLightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wHighLightButton.h; sourceTree = "<group>"; };
+		04820DD523B59FAC00516B81 /* NavSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavSearchBar.h; sourceTree = "<group>"; };
+		04820DD623B59FAC00516B81 /* NavSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavSearchBar.m; sourceTree = "<group>"; };
 		04BA0C9323B4578300AFDC5B /* XLsn0wError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wError.m; sourceTree = "<group>"; };
 		04BA0C9423B4578300AFDC5B /* XLsn0wError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wError.h; sourceTree = "<group>"; };
 		04BA0C9623B458AC00AFDC5B /* XLsn0wiOS.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wiOS.podspec; sourceTree = "<group>"; };
@@ -231,6 +288,19 @@
 			children = (
 				04BA0C9623B458AC00AFDC5B /* XLsn0wiOS.podspec */,
 				04BA0CBB23B4A33600AFDC5B /* XLsn0wiOSHeader.h */,
+				04BA0CAF23B4A29000AFDC5B /* Extension */,
+				04820DD423B59FAC00516B81 /* NavSearchBar */,
+				04820DCB23B59FAC00516B81 /* XLsn0wAlertController */,
+				04820DB123B59F7E00516B81 /* AlignTypeButton */,
+				04820DB923B59F7E00516B81 /* AttributedColorString */,
+				04820DBC23B59F7F00516B81 /* GuidePageManager */,
+				04820DC123B59F7F00516B81 /* RegularExpression */,
+				04820DB423B59F7E00516B81 /* SegmentedBar */,
+				04820DA423B59E3400516B81 /* XLsn0wActionSheet */,
+				04820DA023B59E2000516B81 /* iOSDeviceInfo */,
+				04820D9C23B59DF800516B81 /* AvatarPicker */,
+				04820D9823B59D5800516B81 /* ArrowMenu */,
+				04820D9423B59C9100516B81 /* AppFPSLabel */,
 				04BA0D0123B4ACB600AFDC5B /* XLsn0wPopupSelector */,
 				04BA0CF323B4AC5900AFDC5B /* XLsn0wScrollBar */,
 				04BA0CE923B4AC4900AFDC5B /* XLsn0wLocationManager */,
@@ -238,7 +308,6 @@
 				04BA0CD723B4A61300AFDC5B /* TipShow */,
 				04BA0CCC23B4A59100AFDC5B /* Router */,
 				04BA0CB923B4A2C800AFDC5B /* ConfigHeader */,
-				04BA0CAF23B4A29000AFDC5B /* Extension */,
 				04BA0CA823B4A24F00AFDC5B /* XLsn0wInputBox */,
 				04BA0CA023B49D2600AFDC5B /* TapAttributedLabel */,
 				04BA0C9C23B4919400AFDC5B /* TapView */,
@@ -246,6 +315,135 @@
 				04BA0C9223B4578300AFDC5B /* XLsn0wError */,
 			);
 			path = XLsn0wiOS;
+			sourceTree = "<group>";
+		};
+		04820D9423B59C9100516B81 /* AppFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				04820D9523B59C9100516B81 /* AppFPSLabel.h */,
+				04820D9623B59C9100516B81 /* AppFPSLabel.m */,
+			);
+			path = AppFPSLabel;
+			sourceTree = "<group>";
+		};
+		04820D9823B59D5800516B81 /* ArrowMenu */ = {
+			isa = PBXGroup;
+			children = (
+				04820D9923B59D5800516B81 /* ArrowMenu.h */,
+				04820D9A23B59D5800516B81 /* ArrowMenu.m */,
+			);
+			path = ArrowMenu;
+			sourceTree = "<group>";
+		};
+		04820D9C23B59DF800516B81 /* AvatarPicker */ = {
+			isa = PBXGroup;
+			children = (
+				04820D9D23B59DF800516B81 /* AvatarPicker.m */,
+				04820D9E23B59DF800516B81 /* AvatarPicker.h */,
+			);
+			path = AvatarPicker;
+			sourceTree = "<group>";
+		};
+		04820DA023B59E2000516B81 /* iOSDeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				04820DA123B59E2000516B81 /* iOSDeviceInfo.h */,
+				04820DA223B59E2000516B81 /* iOSDeviceInfo.m */,
+			);
+			path = iOSDeviceInfo;
+			sourceTree = "<group>";
+		};
+		04820DA423B59E3400516B81 /* XLsn0wActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				04820DA523B59E3400516B81 /* XLsn0wActionSheetConfig.h */,
+				04820DA923B59E3400516B81 /* XLsn0wActionSheet.h */,
+				04820DA623B59E3400516B81 /* XLsn0wActionSheet.m */,
+				04820DA823B59E3400516B81 /* XLsn0wActionSheetConfig.m */,
+			);
+			path = XLsn0wActionSheet;
+			sourceTree = "<group>";
+		};
+		04820DAD23B59F0900516B81 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				04820DAE23B59F0900516B81 /* UIDevice+Extension.h */,
+				04820DAF23B59F0900516B81 /* UIDevice+Extension.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		04820DB123B59F7E00516B81 /* AlignTypeButton */ = {
+			isa = PBXGroup;
+			children = (
+				04820DB223B59F7E00516B81 /* AlignTypeButton.m */,
+				04820DB323B59F7E00516B81 /* AlignTypeButton.h */,
+			);
+			path = AlignTypeButton;
+			sourceTree = "<group>";
+		};
+		04820DB423B59F7E00516B81 /* SegmentedBar */ = {
+			isa = PBXGroup;
+			children = (
+				04820DB523B59F7E00516B81 /* SegmentedBar.m */,
+				04820DB623B59F7E00516B81 /* SegmentedPage.h */,
+				04820DB723B59F7E00516B81 /* SegmentedBar.h */,
+				04820DB823B59F7E00516B81 /* SegmentedPage.m */,
+			);
+			path = SegmentedBar;
+			sourceTree = "<group>";
+		};
+		04820DB923B59F7E00516B81 /* AttributedColorString */ = {
+			isa = PBXGroup;
+			children = (
+				04820DBA23B59F7E00516B81 /* AttributedColorString.h */,
+				04820DBB23B59F7E00516B81 /* AttributedColorString.m */,
+			);
+			path = AttributedColorString;
+			sourceTree = "<group>";
+		};
+		04820DBC23B59F7F00516B81 /* GuidePageManager */ = {
+			isa = PBXGroup;
+			children = (
+				04820DBD23B59F7F00516B81 /* GuidePageManager.m */,
+				04820DBE23B59F7F00516B81 /* GuidePageViewController.h */,
+				04820DBF23B59F7F00516B81 /* GuidePageManager.h */,
+				04820DC023B59F7F00516B81 /* GuidePageViewController.m */,
+			);
+			path = GuidePageManager;
+			sourceTree = "<group>";
+		};
+		04820DC123B59F7F00516B81 /* RegularExpression */ = {
+			isa = PBXGroup;
+			children = (
+				04820DC223B59F7F00516B81 /* RegularExpression.h */,
+				04820DC323B59F7F00516B81 /* RegularExpression.m */,
+			);
+			path = RegularExpression;
+			sourceTree = "<group>";
+		};
+		04820DCB23B59FAC00516B81 /* XLsn0wAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				04820DCC23B59FAC00516B81 /* XLsn0wBoldAlertController.h */,
+				04820DCD23B59FAC00516B81 /* XLsn0wAlertActioner.h */,
+				04820DCE23B59FAC00516B81 /* XLsn0wHighLightButton.m */,
+				04820DCF23B59FAC00516B81 /* XLsn0wAlertController.h */,
+				04820DD023B59FAC00516B81 /* XLsn0wAlertActioner.m */,
+				04820DD123B59FAC00516B81 /* XLsn0wBoldAlertController.m */,
+				04820DD223B59FAC00516B81 /* XLsn0wAlertController.m */,
+				04820DD323B59FAC00516B81 /* XLsn0wHighLightButton.h */,
+			);
+			path = XLsn0wAlertController;
+			sourceTree = "<group>";
+		};
+		04820DD423B59FAC00516B81 /* NavSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				04820DD523B59FAC00516B81 /* NavSearchBar.h */,
+				04820DD623B59FAC00516B81 /* NavSearchBar.m */,
+			);
+			path = NavSearchBar;
 			sourceTree = "<group>";
 		};
 		04BA0C9223B4578300AFDC5B /* XLsn0wError */ = {
@@ -296,6 +494,7 @@
 		04BA0CAF23B4A29000AFDC5B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				04820DAD23B59F0900516B81 /* UIDevice */,
 				04BA0CE523B4AB2500AFDC5B /* NSString */,
 				04BA0CC823B4A53900AFDC5B /* NSObject */,
 				04BA0CC423B4A4FD00AFDC5B /* NSDictionary */,
@@ -364,8 +563,8 @@
 		04BA0CCC23B4A59100AFDC5B /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				04BA0CCD23B4A59100AFDC5B /* Router.m */,
 				04BA0CCE23B4A59100AFDC5B /* Router.h */,
+				04BA0CCD23B4A59100AFDC5B /* Router.m */,
 				04BA0CCF23B4A59100AFDC5B /* RouterError */,
 			);
 			path = Router;
@@ -385,11 +584,11 @@
 		04BA0CD723B4A61300AFDC5B /* TipShow */ = {
 			isa = PBXGroup;
 			children = (
-				04BA0CD823B4A61300AFDC5B /* PopupTipHUD+Extension.h */,
-				04BA0CD923B4A61300AFDC5B /* TipShow.m */,
-				04BA0CDA23B4A61300AFDC5B /* TipHUD.h */,
-				04BA0CDB23B4A61300AFDC5B /* PopupTipHUD+Extension.m */,
 				04BA0CDC23B4A61300AFDC5B /* TipShow.h */,
+				04BA0CD923B4A61300AFDC5B /* TipShow.m */,
+				04BA0CD823B4A61300AFDC5B /* PopupTipHUD+Extension.h */,
+				04BA0CDB23B4A61300AFDC5B /* PopupTipHUD+Extension.m */,
+				04BA0CDA23B4A61300AFDC5B /* TipHUD.h */,
 				04BA0CDD23B4A61300AFDC5B /* TipHUD.m */,
 			);
 			path = TipShow;
@@ -416,11 +615,11 @@
 		04BA0CE923B4AC4900AFDC5B /* XLsn0wLocationManager */ = {
 			isa = PBXGroup;
 			children = (
-				04BA0CEA23B4AC4900AFDC5B /* XLsn0wLocationManager.m */,
-				04BA0CEB23B4AC4900AFDC5B /* XLsn0wCoordinateConvert.h */,
-				04BA0CEC23B4AC4900AFDC5B /* XLsn0wLocationManagerAlert.m */,
 				04BA0CED23B4AC4900AFDC5B /* XLsn0wLocationManager.h */,
+				04BA0CEA23B4AC4900AFDC5B /* XLsn0wLocationManager.m */,
 				04BA0CEE23B4AC4900AFDC5B /* XLsn0wLocationManagerAlert.h */,
+				04BA0CEC23B4AC4900AFDC5B /* XLsn0wLocationManagerAlert.m */,
+				04BA0CEB23B4AC4900AFDC5B /* XLsn0wCoordinateConvert.h */,
 				04BA0CEF23B4AC4900AFDC5B /* XLsn0wCoordinateConvert.m */,
 			);
 			path = XLsn0wLocationManager;
@@ -438,12 +637,12 @@
 		04BA0D0123B4ACB600AFDC5B /* XLsn0wPopupSelector */ = {
 			isa = PBXGroup;
 			children = (
-				04BA0D0223B4ACB600AFDC5B /* XLsn0wPopupor.h */,
 				04BA0D0323B4ACB600AFDC5B /* XLsn0wPopupModel.h */,
-				04BA0D0423B4ACB600AFDC5B /* XLsn0wPopupSelector.m */,
-				04BA0D0523B4ACB600AFDC5B /* XLsn0wPopupor.m */,
-				04BA0D0623B4ACB600AFDC5B /* XLsn0wPopupSelector.h */,
 				04BA0D0723B4ACB600AFDC5B /* XLsn0wPopupModel.m */,
+				04BA0D0623B4ACB600AFDC5B /* XLsn0wPopupSelector.h */,
+				04BA0D0423B4ACB600AFDC5B /* XLsn0wPopupSelector.m */,
+				04BA0D0223B4ACB600AFDC5B /* XLsn0wPopupor.h */,
+				04BA0D0523B4ACB600AFDC5B /* XLsn0wPopupor.m */,
 			);
 			path = XLsn0wPopupSelector;
 			sourceTree = "<group>";
@@ -640,26 +839,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04820DC523B59F7F00516B81 /* SegmentedBar.m in Sources */,
+				04820DDA23B59FAD00516B81 /* XLsn0wAlertController.m in Sources */,
 				04BA0C9F23B4919400AFDC5B /* TapView.m in Sources */,
 				040F4A3123B31F8400ADC896 /* ViewController.m in Sources */,
 				04BA0CDF23B4A61400AFDC5B /* PopupTipHUD+Extension.m in Sources */,
 				04BA0CD623B4A59100AFDC5B /* RouterErrorViewController.m in Sources */,
 				04BA0CE423B4A93300AFDC5B /* XLsn0wCounter.m in Sources */,
 				04BA0CE823B4AB2500AFDC5B /* NSString+Extension.m in Sources */,
+				04820D9F23B59DF800516B81 /* AvatarPicker.m in Sources */,
+				04820DDB23B59FAD00516B81 /* NavSearchBar.m in Sources */,
 				04BA0CC323B4A46500AFDC5B /* UILabel+Extension.m in Sources */,
 				040F4A2B23B31F8400ADC896 /* AppDelegate.m in Sources */,
+				04820DD723B59FAD00516B81 /* XLsn0wHighLightButton.m in Sources */,
+				04820DD823B59FAD00516B81 /* XLsn0wAlertActioner.m in Sources */,
 				04BA0D0A23B4ACB600AFDC5B /* XLsn0wPopupModel.m in Sources */,
 				04BA0CF223B4AC4A00AFDC5B /* XLsn0wCoordinateConvert.m in Sources */,
+				04820D9B23B59D5800516B81 /* ArrowMenu.m in Sources */,
 				04BA0CC723B4A4FD00AFDC5B /* NSDictionary+Extension.m in Sources */,
 				04BA0CB623B4A29E00AFDC5B /* UITextView+Placeholder.m in Sources */,
 				04BA0C9B23B4918B00AFDC5B /* TapLabel.m in Sources */,
 				04BA0CA323B49D2600AFDC5B /* TapAttributedLabel.m in Sources */,
 				04BA0CB723B4A29E00AFDC5B /* UITextView+Extension.m in Sources */,
 				04BA0CBF23B4A44D00AFDC5B /* UIImage+Extension.m in Sources */,
+				04820DC423B59F7F00516B81 /* AlignTypeButton.m in Sources */,
 				040F4A3C23B31F8B00ADC896 /* main.m in Sources */,
+				04820DAA23B59E3400516B81 /* XLsn0wActionSheet.m in Sources */,
+				04820DC923B59F7F00516B81 /* GuidePageViewController.m in Sources */,
+				04820DD923B59FAD00516B81 /* XLsn0wBoldAlertController.m in Sources */,
 				04BA0D0823B4ACB600AFDC5B /* XLsn0wPopupSelector.m in Sources */,
 				04BA0CF123B4AC4A00AFDC5B /* XLsn0wLocationManagerAlert.m in Sources */,
+				04820DCA23B59F7F00516B81 /* RegularExpression.m in Sources */,
+				04820DC723B59F7F00516B81 /* AttributedColorString.m in Sources */,
 				04BA0CF023B4AC4A00AFDC5B /* XLsn0wLocationManager.m in Sources */,
+				04820D9723B59C9100516B81 /* AppFPSLabel.m in Sources */,
+				04820DC823B59F7F00516B81 /* GuidePageManager.m in Sources */,
+				04820DC623B59F7F00516B81 /* SegmentedPage.m in Sources */,
+				04820DA323B59E2000516B81 /* iOSDeviceInfo.m in Sources */,
+				04820DB023B59F0900516B81 /* UIDevice+Extension.m in Sources */,
 				04BA0CD523B4A59100AFDC5B /* RouterError.m in Sources */,
 				040F4A2E23B31F8400ADC896 /* SceneDelegate.m in Sources */,
 				04BA0C9523B4578300AFDC5B /* XLsn0wError.m in Sources */,
@@ -667,6 +884,7 @@
 				04BA0D0923B4ACB600AFDC5B /* XLsn0wPopupor.m in Sources */,
 				04BA0CF623B4AC5900AFDC5B /* XLsn0wScrollBar.m in Sources */,
 				04BA0CDE23B4A61400AFDC5B /* TipShow.m in Sources */,
+				04820DAC23B59E3500516B81 /* XLsn0wActionSheetConfig.m in Sources */,
 				04BA0CCB23B4A53900AFDC5B /* NSObject+Extension.m in Sources */,
 				04BA0CE023B4A61400AFDC5B /* TipHUD.m in Sources */,
 			);

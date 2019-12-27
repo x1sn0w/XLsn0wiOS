@@ -1,6 +1,7 @@
 
 #import <Foundation/Foundation.h>
-#import "XLsn0wiOSHeader.h"
+#import <UIKit/UIKit.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TipShow : NSObject
