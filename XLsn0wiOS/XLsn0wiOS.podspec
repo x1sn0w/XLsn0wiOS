@@ -29,4 +29,7 @@ Pod::Spec.new do |s|
 
 end
 
-# pod spec lint /Users/mac/XLsn0wiOS/XLsn0wiOS/XLsn0wiOS.podspec --use-libraries --allow-warnings
+# 验证spec
+# pod spec lint /Users/xlsn0w/XLsn0wiOS/XLsn0wiOS/XLsn0wiOS.podspec --use-libraries --allow-warnings
+# 上传spec
+# pod trunk push /Users/xlsn0w/XLsn0wiOS/XLsn0wiOS/XLsn0wiOS.podspec --use-libraries --allow-warnings
