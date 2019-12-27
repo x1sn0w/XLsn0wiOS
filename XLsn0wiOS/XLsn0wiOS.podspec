@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.version      = "1.0.9"
+  s.version      = "1.1.0"
   s.summary      = "Copyright © XLsn0w"
   s.author          = { "XLsn0w" => "xlsn0wios@outlook.com" }
 
@@ -29,4 +29,4 @@ Pod::Spec.new do |s|
 
 end
 
-# 
+# pod spec lint /Users/mac/XLsn0wiOS/XLsn0wiOS/XLsn0wiOS.podspec --use-libraries --allow-warnings
