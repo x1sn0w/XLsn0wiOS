@@ -450,7 +450,7 @@ static NSString *defaultAvatarString = @"mine_headimg";
 //获取系统对象
 #define kApplication        [UIApplication sharedApplication]
 #define kAppWindow          [UIApplication sharedApplication].delegate.window
-#define kAppDelegate        (AppDelegate*)[UIApplication sharedApplication].delegate
+#define kAppDelegate        [UIApplication sharedApplication].delegate
 #define kRootViewController [UIApplication sharedApplication].delegate.window.rootViewController
 #define kUserDefaults       [NSUserDefaults standardUserDefaults]
 #define kNotificationCenter [NSNotificationCenter defaultCenter]

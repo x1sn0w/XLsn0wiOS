@@ -25,6 +25,9 @@
 #import "YYKit.h"
 #import "ReactiveObjC.h"
 #import "KVOController.h"
+#import "MBProgressHUD.h"
+
+#import "iOSDeviceInfo.h"
 
 #import "UIImage+Extension.h"
 #import "UITextView+Extension.h"
@@ -32,6 +35,8 @@
 #import "UILabel+Extension.h"
 #import "NSDictionary+Extension.h"
 #import "NSObject+Extension.h"
+#import "MBProgressHUD+Extension.h"
+#import "NSDictionary+Extension.h"
 
 #import "TipHUD.h"
 #import "TipShow.h"
