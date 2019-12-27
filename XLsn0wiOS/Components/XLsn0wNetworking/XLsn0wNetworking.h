@@ -1,8 +1,6 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreGraphics/CoreGraphics.h>
-#import <AFNetworking/AFNetworking.h>
-#import <UIKit+AFNetworking.h>
 
 #define XLsn0wHTTPNetworking [XLsn0wNetworking shared]
 

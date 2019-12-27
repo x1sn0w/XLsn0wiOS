@@ -497,8 +497,8 @@
 		04820DEE23B5AE5C00516B81 /* XLsn0wNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				04820DF023B5AE5C00516B81 /* XLsn0wNetworking.m */,
 				04820DF123B5AE5C00516B81 /* XLsn0wNetworking.h */,
+				04820DF023B5AE5C00516B81 /* XLsn0wNetworking.m */,
 			);
 			path = XLsn0wNetworking;
 			sourceTree = "<group>";
