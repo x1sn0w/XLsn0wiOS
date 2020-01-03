@@ -384,6 +384,11 @@ static const char* jailbreak_apps[] =
     if ([deviceString isEqualToString:@"iPhone11,4"])   return @"iPhone XS Max";
     if ([deviceString isEqualToString:@"iPhone11,6"])   return @"iPhone XS Max";
     
+    //iPhone 11 Now 2020-01
+    if ([deviceString isEqualToString:@"iPhone12,1"])   return @"iPhone 11";
+    if ([deviceString isEqualToString:@"iPhone12,3"])   return @"iPhone 11 Pro";
+    if ([deviceString isEqualToString:@"iPhone12,5"])   return @"iPhone 11 Pro Max";
+    
     //iPad
     if ([deviceString isEqualToString:@"iPad1,1"])      return @"iPad";
     if ([deviceString isEqualToString:@"iPad2,1"])      return @"iPad 2 (WiFi)";
@@ -427,6 +432,10 @@ static const char* jailbreak_apps[] =
     if ([deviceString isEqualToString:@"iPad7,4"])      return @"iPad Pro (10.5-inch)";
     if ([deviceString isEqualToString:@"iPad7,5"])      return @"iPad (6th generation)";
     if ([deviceString isEqualToString:@"iPad7,6"])      return @"iPad (6th generation)";
+    
+    //iPod touch
+    if ([deviceString isEqualToString:@"iPod9,1"])   return @"iPod touch 7";
+    if ([deviceString isEqualToString:@"iPod7,1"])   return @"iPod touch 6";
     
     if ([deviceString isEqualToString:@"i386"])         return @"Simulator";
     if ([deviceString isEqualToString:@"x86_64"])       return @"Simulator";
