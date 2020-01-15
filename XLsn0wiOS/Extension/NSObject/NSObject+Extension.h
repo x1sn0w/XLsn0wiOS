@@ -83,7 +83,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)reloadRowsAtIndexPaths:(NSArray<NSIndexPath *> *)indexPaths
                  fromTableView:(UITableView *)tableView;
 
-- (int)getRCIMTotalUnreadCount;
 - (void)preventGestureConflicts:(UIScrollView *)scrollView
            navigationController:(UINavigationController *)navigationController;
 
