@@ -123,8 +123,8 @@ const NSInteger hideTime = 2;
     UIView *winView =(UIView*)[UIApplication sharedApplication].delegate.window;
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
-    [self hideAllHUDsForView:winView animated:YES];
-    [self hideAllHUDsForView:[MBProgressHUD getCurrentUIVC].view animated:YES];
+    [TipHUD hideAllHUDsForView:winView animated:YES];
+    [TipHUD hideAllHUDsForView:[MBProgressHUD getCurrentUIVC].view animated:YES];
     [self hideHUDForView:nil];
 }
 
