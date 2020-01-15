@@ -43,6 +43,7 @@
 		04820DE723B5A8CC00516B81 /* MBProgressHUD+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DE623B5A8CC00516B81 /* MBProgressHUD+Extension.m */; };
 		04820DF323B5AE5D00516B81 /* XLsn0wNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DF023B5AE5C00516B81 /* XLsn0wNetworking.m */; };
 		04820DF423B5AE5D00516B81 /* XLsn0wHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04820DF223B5AE5C00516B81 /* XLsn0wHTTPSessionManager.m */; };
+		048E143223CEB46E00B7ACCB /* PinYinFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E143023CEB46E00B7ACCB /* PinYinFilter.m */; };
 		04BA0C9523B4578300AFDC5B /* XLsn0wError.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0C9323B4578300AFDC5B /* XLsn0wError.m */; };
 		04BA0C9723B458AC00AFDC5B /* XLsn0wiOS.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 04BA0C9623B458AC00AFDC5B /* XLsn0wiOS.podspec */; };
 		04BA0C9B23B4918B00AFDC5B /* TapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA0C9A23B4918B00AFDC5B /* TapLabel.m */; };
@@ -162,6 +163,8 @@
 		04820DF023B5AE5C00516B81 /* XLsn0wNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wNetworking.m; sourceTree = "<group>"; };
 		04820DF123B5AE5C00516B81 /* XLsn0wNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wNetworking.h; sourceTree = "<group>"; };
 		04820DF223B5AE5C00516B81 /* XLsn0wHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wHTTPSessionManager.m; sourceTree = "<group>"; };
+		048E143023CEB46E00B7ACCB /* PinYinFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinYinFilter.m; sourceTree = "<group>"; };
+		048E143123CEB46E00B7ACCB /* PinYinFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYinFilter.h; sourceTree = "<group>"; };
 		04BA0C9323B4578300AFDC5B /* XLsn0wError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wError.m; sourceTree = "<group>"; };
 		04BA0C9423B4578300AFDC5B /* XLsn0wError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wError.h; sourceTree = "<group>"; };
 		04BA0C9623B458AC00AFDC5B /* XLsn0wiOS.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wiOS.podspec; sourceTree = "<group>"; };
@@ -515,6 +518,7 @@
 		04820DF623B5C1D800516B81 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				048E142F23CEB46E00B7ACCB /* PinYinFilter */,
 				043DA9E123B5C6080085308A /* UserArchiver */,
 				043DA9DD23B5C5D60085308A /* UserDefaulter */,
 				04BA0D0123B4ACB600AFDC5B /* XLsn0wPopupSelector */,
@@ -547,6 +551,15 @@
 				04820D9423B59C9100516B81 /* AppFPSLabel */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		048E142F23CEB46E00B7ACCB /* PinYinFilter */ = {
+			isa = PBXGroup;
+			children = (
+				048E143023CEB46E00B7ACCB /* PinYinFilter.m */,
+				048E143123CEB46E00B7ACCB /* PinYinFilter.h */,
+			);
+			path = PinYinFilter;
 			sourceTree = "<group>";
 		};
 		04BA0C9223B4578300AFDC5B /* XLsn0wError */ = {
@@ -982,6 +995,7 @@
 				04BA0CF023B4AC4A00AFDC5B /* XLsn0wLocationManager.m in Sources */,
 				04820D9723B59C9100516B81 /* AppFPSLabel.m in Sources */,
 				04820DC823B59F7F00516B81 /* GuidePageManager.m in Sources */,
+				048E143223CEB46E00B7ACCB /* PinYinFilter.m in Sources */,
 				04820DC623B59F7F00516B81 /* SegmentedPage.m in Sources */,
 				04820DA323B59E2000516B81 /* iOSDeviceInfo.m in Sources */,
 				04820DB023B59F0900516B81 /* UIDevice+Extension.m in Sources */,
