@@ -263,7 +263,7 @@
             [_wk_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.url]]];
         }
     }
-    [MBProgressHUD showActivityMessageInView:@"加载中..."];
+    
 }
 
 #pragma mark - UIWebView代理
@@ -286,7 +286,7 @@
 
 // 加载成功
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
-    [MBProgressHUD hideHUD];
+    
     // 获取 html 文本标题为导航栏标题
     if (!self.navTitle) {
         if (isNotNull([webView stringByEvaluatingJavaScriptFromString:@"document.title"])) {
@@ -336,7 +336,6 @@ decisionHandler:(void (^)(WKNavigationResponsePolicy))decisionHandler {
 
 // 导航完成时，会回调（也就是页面载入完成了）
 - (void)webView:(WKWebView *)webView didFinishNavigation:(null_unspecified WKNavigation *)navigation {
-    [MBProgressHUD hideHUD];
     // 设置导航栏标题
     if (!self.navTitle) {
         [webView evaluateJavaScript:@"document.title" completionHandler:^(id _Nullable title, NSError * _Nullable error) {
