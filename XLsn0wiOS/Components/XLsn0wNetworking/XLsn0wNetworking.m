@@ -129,7 +129,7 @@ static NSString * const kAFNetworkingLockName = @"com.alamofire.networking.opera
         [MBProgressHUD showActivityMessageInWindow:@"加载中..."];
     }
     ///GET请求
-    [manager GET:url parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {
+    [manager GET:url parameters:params headers:nil progress:^(NSProgress * _Nonnull downloadProgress) {
         [downloadProgress addObserver:self
                            forKeyPath:@"fractionCompleted"
                               options:NSKeyValueObservingOptionNew
@@ -217,7 +217,7 @@ static NSString * const kAFNetworkingLockName = @"com.alamofire.networking.opera
     addHTTPHeaderAppVersion;
 
     ///POST
-    [manager POST:url parameters:params progress:^(NSProgress * _Nonnull uploadProgress) {
+    [manager POST:url parameters:params headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
         [uploadProgress addObserver:self
                          forKeyPath:@"fractionCompleted"
                             options:NSKeyValueObservingOptionNew
@@ -304,7 +304,7 @@ static NSString * const kAFNetworkingLockName = @"com.alamofire.networking.opera
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
     
     ///POST
-    [manager POST:url parameters:params progress:^(NSProgress * _Nonnull uploadProgress) {
+    [manager POST:url parameters:params headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
         [uploadProgress addObserver:self
                          forKeyPath:@"fractionCompleted"
                             options:NSKeyValueObservingOptionNew
@@ -364,6 +364,7 @@ static NSString * const kAFNetworkingLockName = @"com.alamofire.networking.opera
     
     [manager PUT:url
       parameters:params
+         headers:nil
          success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
              //将返回的数据转成json数据格式
              if (isLog == true) {
@@ -415,7 +416,7 @@ static NSString * const kAFNetworkingLockName = @"com.alamofire.networking.opera
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
     manager.requestSerializer.timeoutInterval = XLsn0wNetworking_timeoutInterval;
     
-    [manager POST:url parameters:parameter constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
+    [manager POST:url parameters:parameter headers:nil constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
         
         [formData appendPartWithFileData:fileData name:fieldName fileName:fileName mimeType:mimeType];
         
@@ -619,7 +620,7 @@ static NSString * const kAFNetworkingLockName = @"com.alamofire.networking.opera
     NSDictionary *paramDic = parameters;
     
     if (HTTPMethod == POST) {
-        [manager POST:url parameters:paramDic progress:^(NSProgress * _Nonnull uploadProgress) {
+        [manager POST:url parameters:paramDic headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
             
         } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
             if (success) {
@@ -642,7 +643,7 @@ static NSString * const kAFNetworkingLockName = @"com.alamofire.networking.opera
             }
         }];
     }else if (HTTPMethod == GET){
-        [manager GET:url parameters:parameters progress:^(NSProgress * _Nonnull downloadProgress) {
+        [manager GET:url parameters:parameters headers:nil progress:^(NSProgress * _Nonnull downloadProgress) {
             
         } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
             if (success) {
@@ -665,7 +666,7 @@ static NSString * const kAFNetworkingLockName = @"com.alamofire.networking.opera
             }
         }];
     }else if (HTTPMethod == DELETE){
-        [manager DELETE:url parameters:parameters success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        [manager DELETE:url parameters:parameters headers:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
             if (success) {
                 NSDictionary *JSONDictionary = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
                 XLsn0wLog(@"responseJSON = %@", convertJSON(JSONDictionary));
@@ -720,7 +721,7 @@ static NSString * const kAFNetworkingLockName = @"com.alamofire.networking.opera
     NSDictionary *paramDic = parameters;
     
     if (method == POST) {
-        [manager POST:url parameters:paramDic progress:^(NSProgress * _Nonnull uploadProgress) {
+        [manager POST:url parameters:paramDic headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
             
         } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
             if (success) {
@@ -736,7 +737,7 @@ static NSString * const kAFNetworkingLockName = @"com.alamofire.networking.opera
             }
         }];
     }else if (method == GET){
-        [manager GET:url parameters:parameters progress:^(NSProgress * _Nonnull downloadProgress) {
+        [manager GET:url parameters:parameters headers:nil progress:^(NSProgress * _Nonnull downloadProgress) {
             
         } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
             if (success) {

@@ -72,14 +72,22 @@
         return;
     }
     NSString *type = [self typeForImageData:data];
-    NSURLSessionDataTask *uploadTask = [[self sharedWithBaseURL:baseURLString] POST:@"file/uploadFile" parameters:nil constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
+    AFHTTPSessionManager* httpManager = [self sharedWithBaseURL:baseURLString];
+    NSURLSessionDataTask *uploadTask = [httpManager
+                                        POST:@"file/uploadFile"
+                                        parameters:nil
+                                        headers:nil
+                                        constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
         [formData appendPartWithFileData:data name:@"uploadFile" fileName:type mimeType:@"image/png"];
         [formData appendPartWithFormData:UTF8StringEncoding(@"image") name:@"fileType"];
         [formData appendPartWithFormData:UTF8StringEncoding(purpose) name:@"filePurpose"];
         [formData appendPartWithFormData:UTF8StringEncoding(purposeId) name:@"fkPurposeId"];
-    } progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    }
+                                        progress:nil
+                                        success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+    }
+                                        failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         handler(nil);
         NSLog(@"错误%@",error);
     }];
@@ -100,8 +108,10 @@
     XLsn0wLog(@"URLString = %@ \n parameters = %@", URLString, convertJSON(parameters));
     XLsn0wLog(@"files = %@", files);
     XLsn0wLog(@"fileNames = %@", fileNames);
+    
     [manager POST:URLString
        parameters:parameters
+          headers:nil
 constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
         for (int i = 0; i < files.count; i++) {
             NSData *imageData = UIImageJPEGRepresentation(files[i], 0.8);
@@ -110,7 +120,8 @@ constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
                                     fileName:[NSString stringWithFormat:@"%@.png",fileNames[i]]
                                     mimeType:@"image/png"];
         }
-    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    } progress:nil
+          success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         XLsn0wLog(@"responseObject = %@", convertJSON(responseObject));
         if (success) {
             success(responseObject);

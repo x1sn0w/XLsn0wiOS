@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.version      = "1.1.6"
+  s.version      = "2.0.0"
   s.summary      = "Copyright © XLsn0w"
   s.author          = { "XLsn0w" => "xlsn0wios@outlook.com" }
 
