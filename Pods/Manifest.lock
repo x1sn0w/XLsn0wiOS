@@ -42,7 +42,7 @@ DEPENDENCIES:
   - YYKit
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - KVOController
     - Masonry
@@ -66,4 +66,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 01fd1e12aee19516a4b2ffab1962c7ffbee3f3ad
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.9.1
